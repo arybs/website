@@ -44,7 +44,7 @@ minima:
     github: yairmau
 
 # Set this to true to get LaTeX math equation support
-use_math: 
+use_math: true
 
 # Set this to true to display the summary of your blog post under your title on the Home page.
 show_description: true
@@ -102,8 +102,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-  - jekyll-katex
-
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
