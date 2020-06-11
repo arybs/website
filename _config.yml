@@ -7,14 +7,15 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Yair Mau
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+description: Environmental Modeling
+institution: The Hebrew University of Jerusalem
 github_username: yairmau
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "website"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
-url: "https://yairmau.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yairmau.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###########################################################
 #########  Special Instructions for baseurl ###############
@@ -34,13 +35,13 @@ url: "https://yairmau.github.io" # the base hostname & protocol for your site, e
 #
 # 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
 #
-baseurl: "/website" # the subpath of your site, e.g. "/blog".
+baseurl: "" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    twitter: MauYair
+    github: yairmau
 
 # Set this to true to get LaTeX math equation support
 use_math: 
@@ -55,7 +56,7 @@ show_image: false
 show_tags: true
 
 # Add your Google Analytics ID here if you have one and want to use it
-google_analytics: 
+google_analytics: UA-78726339-1
 
 exclude:
   - docker-compose.yml
@@ -65,6 +66,16 @@ exclude:
 # this setting allows you to keep pages organized in the _pages folder
 include:
   - _pages
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+# header_pages:
+#   - research/index.md
+#   - publications/index.md
+#   - group/index.md
+#   - tutorials/index.md
+#   - more/index.md
+#   - hebrew/index.md
 
 # This specifies what badges are turned on by default for notebook posts.
 default_badges:
