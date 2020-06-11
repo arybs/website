@@ -472,4 +472,34 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .highlight .gd { color: #ff5555; }
 
+hr { display: block; height: 1px; border: 0; border-top: 3px solid #ccc; margin: 1em 0; padding: 0; }
+
+.page-link { font-size: 1.125rem; vertical-align: middle; }
+
+.navbar-fixed-top { position: fixed; top: 0; right: 0; left: 0; z-index: 999; background-color: white; border-bottom: 5px solid #6e0014; border-top: 5px solid #6e0014; }
+
+.page, .post, .home, .blog { padding-top: 55.95px; }
+
+:target::before { content: ""; display: block; margin-top: -55.95px; height: 55.95px; }
+
+.svv:hover { animation: fa-spin 2s linear; }
+
+@-webkit-keyframes fa-spin { 0% { -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes fa-spin { 0% { -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+code { font-size: 1rem; }
+
+.site-footer { border-top: 5px solid #6e0014; }
+
+.my_button { font-size: 1.3rem; background-color: #6e0014; border: none; color: white; padding: 10px 15px; text-align: center; text-decoration: none; display: inline-block; transition: 0.3s; }
+
+.my_button:hover { background: #ccc; color: #6e0014; /*border: 1px solid #6e0014;*/ }
+
 /*# sourceMappingURL=style.css.map */
