@@ -9,3 +9,94 @@
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
+
+
+// thicker horizontal line
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+// increases font of site-nav, makes it vertically centered
+.page-link {
+  @include relative-font-size(1.125);
+  vertical-align: middle;
+}
+
+
+// sticky header
+// https://getflywheel.com/layout/create-sticky-website-header-how-to/
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+  border-bottom: 5px solid #6e0014;
+  border-top: 5px solid #6e0014;
+}
+
+// move content down because of fixed header
+.page, .post, .home, .blog {
+  padding-top: $spacing-unit * 1.865;
+}
+
+// move anchor down because of fixed header
+// "anchor" is the link you click to an h2
+:target::before {
+      content: "";
+      display: block;
+      margin-top: -$spacing-unit * 1.865;
+      height: $spacing-unit * 1.865;
+}
+
+// rotating fontawesome icons
+// https://stackoverflow.com/questions/34378940/rotating-a-font-awesome-icon-on-hover/34379054
+.svv:hover {
+    animation: fa-spin 2s linear;
+}
+@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+
+
+code {
+  @include relative-font-size(1.0)
+}
+
+
+// thick line above footer
+$brand-color:           #828282 !default;
+$brand-color-light:     lighten($brand-color, 40%) !default;
+$brand-color-dark:      darken($brand-color, 25%) !default;
+
+.site-footer {
+  border-top: 5px solid #6e0014;
+}
+
+
+
+// my button
+.my_button {
+  @include relative-font-size(1.3);
+  background-color: #6e0014;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.my_button:hover {
+  background: #ccc;
+  color: #6e0014;
+  /*border: 1px solid #6e0014;*/
+
+}
