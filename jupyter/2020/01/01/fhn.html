@@ -193,6 +193,19 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>
+</p>
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5au-G5FuI_A" frameborder="0" allowfullscreen=""></iframe>
+</center>
+
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Introduction">
 <a class="anchor" href="#Introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction<a class="anchor-link" href="#Introduction"> </a>
 </h2>
@@ -205,13 +218,7 @@ using the semi-spectral time integration method.</p>
 <p>This simultation was heavily inspired by Aric Hagberg's simulation in <a href="http://in.bgu.ac.il/en/bidr/SIDEER/DSEEP/Ehud_Meron/Documents/Papers/HaMe94prl.pdf">"From Labyrinthine Patterns to Spiral Turbulence", PRL 1994</a>.</p>
 <p>The code below provides 3 initial conditions, "squiggle, blocks, and random". For time integration, besides the spectral method, we also provide the Euler method. Details about the semi-spectral method can be found after the code.</p>
 <p>Parameters: $\epsilon=0.3$, $\delta=2.0$, $a_1=1.4$, and $a_0=0$.</p>
-<p>Other simulations and Python examples can be found on my website: <a href="yairmau.com">yairmau.com</a>.
-
-</p>
-<center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5au-G5FuI_A" frameborder="0" allowfullscreen=""></iframe>
-</center>
-
+<p>Other simulations and Python examples can be found on my website: <a href="yairmau.com">yairmau.com</a>.</p>
 
 </div>
 </div>
@@ -466,27 +473,6 @@ using the semi-spectral time integration method.</p>
 </div>
     
 
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>UsageError: Line magic function `%%javascript` not found.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -507,7 +493,7 @@ $$
    \label{eq:1} \tag{1}
 \end{equation*}
 $$</p>
-<p>where $f(u)$ is a nonlinear function. First, we compute the Fourier transform of $\eqref{eq:1}$:
+<p>where $f(u)$ is a nonlinear function. First, we compute the Fourier transform of \eqref{eq:1}:
 $$
 \begin{equation*}
    \hat{u}_t=\epsilon \hat{u} + \hat{f}(u)-k^2D\hat{u},
@@ -515,7 +501,7 @@ $$
 \end{equation*}
 $$
 where the hat denotes the Fourier transform.</p>
-<p>We rearrange $\eqref{eq:2}$ in the following way:
+<p>We rearrange \eqref{eq:2} in the following way:
 $$
 \begin{equation*}
    \hat{u}_t+a\hat{u}=\hat{f}(u),
@@ -530,7 +516,7 @@ $$
    \hat{v}_t&amp;=\;\hat{u}_te^{at}+a\hat{u}\,e^{at}.  \label{eq:4b} \tag{4b}
 \end{align*}
 $$</p>
-<p>We multiply $\eqref{eq:3}$ by $e^{at}$ and we finally get
+<p>We multiply \eqref{eq:3} by $e^{at}$ and we finally get
 $$
 \begin{equation*}
    \hat{v}_t=e^{at}\hat{f}(u).
@@ -544,16 +530,16 @@ $$
    \label{eq:6} \tag{6}
 \end{equation*}
 $$</p>
-<p>What we really want is $\hat{u}$, which, according to $\eqref{eq:4a}$, is given by</p>
+<p>What we really want is $\hat{u}$, which, according to \eqref{eq:4a}, is given by</p>
 $$
 \begin{align*}
-   \hat{u}^{t_{n+1}}=&amp;\;\hat{v}^{t_{n+1}}e^{-at_{n+1}} \label{eq:7a} \tag{7a}\\
+\displaystyle\hat{u}^{t_{n+1}}=&amp;\;\hat{v}^{t_{n+1}}e^{-at_{n+1}} \label{eq:7a} \tag{7a}\\
    =&amp;\;\hat{v}^{t_{n+1}}e^{-at_{n}}e^{-a\Delta t} \label{eq:7b} \tag{7b}\\
    =&amp;\;\left(\hat{v}^{t_n}+\Delta t\; e^{a t_n}\hat{f}(u)\right)e^{-at_{n}}e^{-a\Delta t} \label{eq:7c} \tag{7c}\\
    =&amp;\;\left(\hat{v}^{t_n}e^{-at_{n}}+\Delta t \;{e^{a t_n}}\hat{f}(u) {e^{-at_{n}}}\right)e^{-a\Delta t} \label{eq:7d} \tag{7d}\\
    =&amp;\;\left( \hat{u}^{t_n}+\Delta t \hat{f}(u) \right)e^{-a\Delta t} \label{eq:7e} \tag{7e}.
 \end{align*}
-$$<p>There is actually no need to use the variable substitution in $\eqref{eq:4a}$. We now have an expression for $\hat{u}^{t_{n+1}}$:
+$$<p>There is actually no need to use the variable substitution in \eqref{eq:4a}. We now have an expression for $\hat{u}^{t_{n+1}}$:
 $$
 \begin{equation*}
    \hat{u}^{t_{n+1}}=\left( \hat{u}^{t_n}+\Delta t \hat{f}(u) \right)e^{-a\Delta t}.
@@ -572,7 +558,9 @@ $$</p>
 <ul>
 <li>Calculate the Fourier transform of $u$: $\hat{u}=\mathcal{F}[u]$.</li>
 <li>Have $f(u)$ calculated and then take its Fourier transform: $\hat{f}(u)=\mathcal{F}[f(u)]$.</li>
-<li>For a given lattice with $N$ points, and $\delta x$ being the distance between them, make the frequency bin vector (matrix) $k$ for your one (two) dimensional system. In python the command would be <code>numpy.fft.fftfreq(N, dx)</code>. The frequency bin vector $k$ looks like:</li>
+<li>For a given lattice with $N$ points, and $\delta x$ being the distance between them, make the frequency bin vector (matrix) $k$ for your one (two) dimensional system. In python the command would be<div class="highlight"><pre><span></span><span class="n">numpy</span><span class="o">.</span><span class="n">fft</span><span class="o">.</span><span class="n">fftfreq</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">dx</span><span class="p">)</span><span class="o">.</span>
+</pre></div>
+The frequency bin vector $k$ looks like:</li>
 </ul>
 $$
 \begin{align}
@@ -580,7 +568,7 @@ $$
    k&amp;=2\pi\cdot\left[ 0,1,\cdots,\tfrac{N-1}{2},-\tfrac{N-1}{2},\cdots,-1 \right]/(N\, \delta x), \qquad \mbox{if N is odd.} \label{eq:10b} \tag{10b}
 \end{align}
 $$<p>Remember that the domain size is given by $L=N\, \delta x$, which means that the denominator in the expressions above can be written simply as $L$. It is clear from that fact that $\delta k$, the tiniest slice of the Fourier space is $\delta k=2\pi/L$. Corollary: if you want to divide the Fourier space into very many parts, simply have a huge domain.<br>
-If the system is two-dimensional, then have $k_x$ and $k_y$ calculated separately. The domain might not be square ($L_x\neq L_y$), and you might want to divide the domain into a different number of points ($Nx\neq Ny$). Anyway, prepare one-dimensional arrays of $k_x$ and $k_y$ as explained above, and then make an <em>outer product</em> of these arrays with a <em>ones</em> array of length $N$, as following:</p>
+If the system is two-dimensional, then have $k_x$ and $k_y$ calculated separately. The domain might not be square ($L_x\neq L_y$), and you might want to divide the domain into a different number of points ($N_x\neq N_y$). Anyway, prepare one-dimensional arrays of $k_x$ and $k_y$ as explained above, and then make an <em>outer product</em> of these arrays with a <em>ones</em> array of length $N$, as following:</p>
 $$
  k_{x,2d} = \begin{pmatrix}
              1 \\ 1 \\ \vdots \\ 1
