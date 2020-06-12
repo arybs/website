@@ -11,6 +11,17 @@
         
     
   
+    
+        ,"post1": {
+            "title": "Conway's Game of Life",
+            "content": ". Introduction . This is a (slightly) modified version of Glowing Python&#39;s code. I make it available here because it features a few nice things: . how to make a movie using matplotlib.animation | how to write a generator (function with yield) | how to plot a sparce array (spy) | . The code . import numpy as np from matplotlib import pyplot as plt import matplotlib.animation as manimation def life(X, steps): &quot;&quot;&quot; Conway&#39;s Game of Life. - X, matrix with the initial state of the game. - steps, number of generations. &quot;&quot;&quot; def roll_it(x, y): # rolls the matrix X in a given direction # x=1, y=0 left; x=-1, y=0 right; return np.roll(np.roll(X, y, axis=0), x, axis=1) for _ in range(steps): # count the number of neighbours # the universe is considered toroidal Y = roll_it(1, 0) + roll_it(0, 1) + roll_it(-1, 0) + roll_it(0, -1) + roll_it(1, 1) + roll_it(-1, -1) + roll_it(1, -1) + roll_it(-1, 1) # game of life rules X = np.logical_or(np.logical_and(X, Y == 2), Y == 3) X = X.astype(int) yield X . dimensions = (90, 160) # height, width X = np.zeros(dimensions) # Y by X dead cells middle_y = dimensions[0] / 2 middle_x = dimensions[1] / 2 N_iterations = 600 # acorn initial condition # http://www.conwaylife.com/w/index.php?title=Acorn X[middle_y, middle_x:middle_x+2] = 1 X[middle_y, middle_x+4:middle_x+7] = 1 X[middle_y+1, middle_x+3] = 1 X[middle_y+2, middle_x+1] = 1 . FFMpegWriter = manimation.writers[&#39;ffmpeg&#39;] metadata = dict(title=&#39;Game of life&#39;, artist=&#39;Acorn initial condition&#39;) writer = FFMpegWriter(fps=10, metadata=metadata) fig = plt.figure() fig.patch.set_facecolor(&#39;black&#39;) with writer.saving(fig, &quot;game_of_life.mp4&quot;, 300): # last argument: dpi plt.spy(X, origin=&#39;lower&#39;) plt.axis(&#39;off&#39;) writer.grab_frame() plt.clf() for i, x in enumerate(life(X, N_iterations)): plt.title(&quot;iteration: {:03d}&quot;.format(i + 1)) plt.spy(x, origin=&#39;lower&#39;) plt.axis(&#39;off&#39;) writer.grab_frame() plt.clf() .",
+            "url": "https://yairmau.com/jupyter/2020/01/01/gol.html",
+            "relUrl": "/jupyter/2020/01/01/gol.html",
+            "date": " • Jan 1, 2020"
+        }
+        
+    
+  
 
   
   
