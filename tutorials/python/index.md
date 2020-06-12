@@ -81,7 +81,7 @@ Main features:
 
 Main features:
 `LaTeX text, scipy.optimize.curve_fit, matplotlib.patches`  
-![](http://www.bitbucket.org/yairmau/notebooks/raw/master/figures/least-squares.png)
+![](/images/python_figures/least-squares.png)
 
 <hr style="border-top: 3px solid #ccc;">
 
@@ -94,7 +94,7 @@ Main features:
 
 Main features:
 `np.histogram, plt.hist, plt.bar, plt.barh, gridspec, least squares fit of nonlinear function, plt.hist2d`  
-![](http://www.bitbucket.org/yairmau/notebooks/raw/master/figures/histogram.png)
+![](/images/python_figures/histograms.png)
 
 <hr style="border-top: 3px solid #ccc;">
 
@@ -108,7 +108,7 @@ Main features:
 Highly customizable subplot structure. Also, figure contains several axis configurations and labeling options.  
 Main features:
 `gridspec subplots; numpy-compatible heaviside; label, ticks and axis manipulations; log scale`
-![](http://www.bitbucket.org/yairmau/notebooks/raw/master/figures/subplot-grid.png)
+![](/images/python_figures/subplot-grid.png)
 
 <hr style="border-top: 3px solid #ccc;">
 
@@ -122,7 +122,7 @@ Main features:
 Streamplot of a two-dimensional linear system, with eigenvectors and nullclines. Python shows LaTeX equations beautifully.  
 Main features:
 `meshgrid, streamplot, contour, legend, LaTeX`
-![](http://www.bitbucket.org/yairmau/notebooks/raw/master/figures/linear-system.png)
+![](/images/python_figures/streamplot.png)
 
 <hr style="border-top: 3px solid #ccc;">
 
@@ -205,7 +205,7 @@ Main features:
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
 
-## Drowning person problem
+## Least action principle on the beach
 
 <button class="my_button" onclick="window.open('../../jupyter/2020/01/01/bestpath', '_blank');">Jupyter notebook</button>
 
@@ -214,7 +214,8 @@ This is a nice example how to use spines (x and y axis form a cross), instead of
 Main features:
 `spines, matplotlib.patches.Rectangle, annotate`
 
-![](http://www.bitbucket.org/yairmau/notebooks/raw/master/figures/sea-sand.png)
+![](/images/python_figures/bestpath.png)
+
 
 <hr style="border-top: 3px solid #ccc;">
 
@@ -244,5 +245,5 @@ Horizontal and vertical bars, with numeric legends. Unicode support.
 Main features:
 `unicode, bar, barh, grid`
 
-![](http://www.bitbucket.org/yairmau/notebooks/raw/master/figures/bars.png)
+![](/images/python_figures/bars.png)
 
