@@ -43,7 +43,7 @@ I recommend <a href="https://www.sublimetext.com/" target="_blank">Sublime Text<
 
 ## Fitzhugh-Nagumo --- Labyrinthine Patterns
 
-<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/FHN', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/fhn', '_blank');">Jupyter notebook</button>
 
 Main features:
 how to make a movie, time-integration methods (semi-spectral and Euler)
@@ -90,7 +90,7 @@ Main features:
 
 ## Fun with histograms
 
-<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/funwithhistograms', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/histograms', '_blank');">Jupyter notebook</button>
 
 Main features:
 `np.histogram, plt.hist, plt.bar, plt.barh, gridspec, least squares fit of nonlinear function, plt.hist2d`  
@@ -103,7 +103,7 @@ Main features:
 
 ## Fancy subplot grid
 
-<button class="my_button" onclick="window.open('../../jupyter/2020/01/06/FancySubplotGrid', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/subplotgrid', '_blank');">Jupyter notebook</button>
 
 Highly customizable subplot structure. Also, figure contains several axis configurations and labeling options.  
 Main features:
@@ -117,7 +117,7 @@ Main features:
 
 ## Streamplot
 
-<button class="my_button" onclick="window.open('../../jupyter/2020/01/07/Streamplot', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/streamplot', '_blank');">Jupyter notebook</button>
 
 Streamplot of a two-dimensional linear system, with eigenvectors and nullclines. Python shows LaTeX equations beautifully.  
 Main features:
@@ -131,7 +131,7 @@ Main features:
 
 ## The time dependent Ginzburg-Landau equation
 
-<button class="my_button" onclick="window.open('../../jupyter/2020/01/08/TDGLE', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/tdgle', '_blank');">Jupyter notebook</button>
 
 Numerical integration of a parabolic partial differential equation, using finite differences: Euler step to advance time, and a 5-point stencil to approximate the Laplacian.  
 Main features:
@@ -146,7 +146,7 @@ Main features:
 
 ## The double pendulum
 
-<button class="my_button" onclick="window.open('../../jupyter/2020/01/09/DoublePendulum', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/doublependulum', '_blank');">Jupyter notebook</button>
 
 Numerical integration of the equations of motion of the double pendulum. This time, scipy's ode itegrator was used. Nice example of how to make a movie.  
 Main features:
@@ -161,7 +161,7 @@ Main features:
 
 ## The Hilbert curve
 
-<button class="my_button" onclick="window.open('http://nbviewer.jupyter.org/urls/bitbucket.org/yairmau/notebooks/raw/master/hilbert-curve.ipynb', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/hilbertcurve', '_blank');">Jupyter notebook</button>
 
 Construction of the Hilbert curve as a Lindenmayer system (L-system).  
 Main features:
@@ -177,7 +177,7 @@ Main features:
 
 ## A hysteresis mechanism
 
-<button class="my_button" onclick="window.open('http://nbviewer.jupyter.org/urls/bitbucket.org/yairmau/notebooks/raw/master/hysteresis.ipynb', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/hysteresis', '_blank');">Jupyter notebook</button>
 
 Hysteresis mechanism created by the bistability of states. System goes to minimum points u in the energy functional $f=u^4-2u^2+hu$. The parameter $h$ is ramped down and up during this simulation.  
 Main features:
@@ -192,7 +192,7 @@ Main features:
 
 ## Contour plot
 
-<button class="my_button" onclick="window.open('http://nbviewer.ipython.org/urls/bitbucket.org/yairmau/notebooks/raw/master/contours.ipynb', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/contours', '_blank');">Jupyter notebook</button>
 
 Contour plot with many customizable options. Also, a nice way to truncate a colormap so it gives the color range that you want.  
 Main features:
@@ -223,7 +223,7 @@ Main features:
 
 ## This website's logo
 
-<button class="my_button" onclick="window.open('http://nbviewer.ipython.org/urls/bitbucket.org/yairmau/notebooks/raw/master/website-logo.ipynb', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/websitelogo.ipynb', '_blank');">Jupyter notebook</button>
 
 Simple example of how to make a figure without any visible axes.  
 Main features:
@@ -238,7 +238,7 @@ Main features:
 
 ## Bars
 
-<button class="my_button" onclick="window.open('http://nbviewer.ipython.org/urls/bitbucket.org/yairmau/notebooks/raw/master/bars.ipynb', '_blank');">Jupyter notebook</button>
+<button class="my_button" onclick="window.open('../../jupyter/2020/01/01/bars', '_blank');">Jupyter notebook</button>
 
 Horizontal and vertical bars, with numeric legends. Unicode support.  
 Main features:
