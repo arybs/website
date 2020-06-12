@@ -230,7 +230,7 @@ Simple example of how to make a figure without any visible axes.
 Main features:
 `set_axis_off, fill_between, matplotlib inline plot on Jupyter`
 
-![](http://www.bitbucket.org/yairmau/notebooks/raw/master/figures/site-logo.png)
+![](/images/python_figures/site-logo.png)
 
 <hr style="border-top: 3px solid #ccc;">
 
