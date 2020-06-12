@@ -17,6 +17,7 @@ github_repo: "website"
 # Note: leave out the trailing / from this value. 
 url: "https://yairmau.com" # the base hostname & protocol for your site, e.g. http://example.com
 
+author: Mickey
 ###########################################################
 #########  Special Instructions for baseurl ###############
 #
@@ -64,18 +65,23 @@ exclude:
   - Makefile
 
 # this setting allows you to keep pages organized in the _pages folder
-include:
-  - _pages
+# include:
+ # - _pages
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - research/index.md
-#   - publications/index.md
-#   - group/index.md
-#   - tutorials/index.md
-#   - more/index.md
+header_pages:
+  - research/index.md
+  - publications/index.md
+  - group/index.md
+  - tutorials/index.md
+  - more/index.md
 #   - hebrew/index.md
+
+showlogo: "/images/site-logo.png"
+
+show_posts: true
+
 
 # This specifies what badges are turned on by default for notebook posts.
 default_badges:

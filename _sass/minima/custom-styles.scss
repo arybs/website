@@ -43,18 +43,18 @@ hr {
 }
 
 // move content down because of fixed header
-.page, .post, .home, .blog {
+.page, .post, .home, .blog, {
   padding-top: $spacing-unit * 1.865;
 }
 
 // move anchor down because of fixed header
 // "anchor" is the link you click to an h2
-:target::before {
-      content: "";
-      display: block;
-      margin-top: -$spacing-unit * 1.865;
-      height: $spacing-unit * 1.865;
-}
+//:target::before {
+//      content: "";
+//      display: block;
+//      margin-top: -$spacing-unit * 2.2;
+//      height: $spacing-unit * 2.2;
+//}
 
 // rotating fontawesome icons
 // https://stackoverflow.com/questions/34378940/rotating-a-font-awesome-icon-on-hover/34379054
