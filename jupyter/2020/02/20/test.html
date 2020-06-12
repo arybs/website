@@ -6,6 +6,7 @@
 <title>Fastpages Notebook Blog Post | Yair Mau</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="Fastpages Notebook Blog Post" />
+<meta name="author" content="Mickey" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A tutorial of fastpages for Jupyter notebooks." />
 <meta property="og:description" content="A tutorial of fastpages for Jupyter notebooks." />
@@ -16,7 +17,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-02-20T00:00:00-06:00" />
 <script type="application/ld+json">
-{"description":"A tutorial of fastpages for Jupyter notebooks.","@type":"BlogPosting","headline":"Fastpages Notebook Blog Post","dateModified":"2020-02-20T00:00:00-06:00","datePublished":"2020-02-20T00:00:00-06:00","image":"https://yairmau.com/images/chart-preview.png","url":"https://yairmau.com/jupyter/2020/02/20/test.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://yairmau.com/jupyter/2020/02/20/test.html"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Mickey"},"description":"A tutorial of fastpages for Jupyter notebooks.","@type":"BlogPosting","headline":"Fastpages Notebook Blog Post","dateModified":"2020-02-20T00:00:00-06:00","datePublished":"2020-02-20T00:00:00-06:00","image":"https://yairmau.com/images/chart-preview.png","url":"https://yairmau.com/jupyter/2020/02/20/test.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://yairmau.com/jupyter/2020/02/20/test.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://yairmau.com/feed.xml" title="Yair Mau" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -28,6 +29,7 @@
 <title>Fastpages Notebook Blog Post | Yair Mau</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="Fastpages Notebook Blog Post" />
+<meta name="author" content="Mickey" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A tutorial of fastpages for Jupyter notebooks." />
 <meta property="og:description" content="A tutorial of fastpages for Jupyter notebooks." />
@@ -38,7 +40,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-02-20T00:00:00-06:00" />
 <script type="application/ld+json">
-{"description":"A tutorial of fastpages for Jupyter notebooks.","@type":"BlogPosting","headline":"Fastpages Notebook Blog Post","dateModified":"2020-02-20T00:00:00-06:00","datePublished":"2020-02-20T00:00:00-06:00","image":"https://yairmau.com/images/chart-preview.png","url":"https://yairmau.com/jupyter/2020/02/20/test.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://yairmau.com/jupyter/2020/02/20/test.html"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Mickey"},"description":"A tutorial of fastpages for Jupyter notebooks.","@type":"BlogPosting","headline":"Fastpages Notebook Blog Post","dateModified":"2020-02-20T00:00:00-06:00","datePublished":"2020-02-20T00:00:00-06:00","image":"https://yairmau.com/images/chart-preview.png","url":"https://yairmau.com/jupyter/2020/02/20/test.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://yairmau.com/jupyter/2020/02/20/test.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -95,14 +97,19 @@ window.onload = wrap_img;
     elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
     });
 </script>
+<!--  added by Yair  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head><body>
 <header class="site-header navbar-fixed-top">
 
   <div class="wrapper">
-<div>
-      <a class="site-title" rel="author" href="/">Yair Mau</a>
-    </div>
-<nav class="site-nav">
+<a class="site-title" rel="author" href="/" style="text-decoration:none">
+        <img src="/images/site-logo.png" alt="Yair Mau" style="vertical-align: middle; padding-right:0.5em;" height="40">
+          <span style="vertical-align: middle;">Yair Mau</span>
+      </a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger">
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -113,7 +120,12 @@ window.onload = wrap_img;
         </label>
 
         <div class="trigger">
-<a class="page-link" href="/about/">About Me, Yair</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a>
+          <!-- Hard coded pages -->
+<!--           <a class="page-link" href="/research">Research</a>
+          <a class="page-link" href="/publications">Publications</a>
+          <a class="page-link" href="/group">Group</a>
+          <a class="page-link" href="/tutorials">Tutorials</a>
+          <a class="page-link" href="/more">More</a> --><a class="page-link" href="/research/">Research</a><a class="page-link" href="/publications/">Publications</a><a class="page-link" href="/group/">Group</a><a class="page-link" href="/tutorials/">Tutorials</a><a class="page-link" href="/more/">More</a>
 </div>
       </nav>
 </div>
@@ -1051,29 +1063,26 @@ And another {% fn 2 %}
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="/feed.xml">
-            <svg class="svg-icon orange">
-              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
+        <img src="/images/site-logo.png" alt="Yair Mau" style="vertical-align: middle; padding-left:0em" height="80">
+        <ul class="contact-list">
+          
+        </ul>
       </div>
       <div class="footer-col">
-        <p>Environmental Modeling</p>
+        <p>Yair Mau<br>
+           Environmental Modeling<br>
+           The Hebrew University of Jerusalem</p>
       </div>
     </div>
 
-    <div class="social-links">
+  </div>
+   <div class="social-links">
 <ul class="social-media-list">
 <li><a rel="me" href="https://github.com/yairmau" title="yairmau"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li>
 <li><a rel="me" href="https://twitter.com/MauYair" title="MauYair"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li>
 </ul>
 </div>
 
-  </div>
-
-</footer>
-</body>
+</footer></body>
 
 </html>
