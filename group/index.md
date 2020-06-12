@@ -8,12 +8,12 @@ title: Group
 </header>
   
 ### Yair Mau, Principal Investigator  
-<img src="/images/yair-350x350.jpg" alt="yair" width="300" align="left" style="border-radius: 20%;"/><br CLEAR="all">
+<img src="/images/group/yair-350x350.jpg" alt="yair" width="300" align="left" style="border-radius: 20%;"/><br CLEAR="all">
 
 <hr style="border-top: 3px solid #ccc;">
 
 ### Isaac Kramer, PhD student  
-<img src="/images/isaac-500px.jpg" alt="isaac" width="310" align="left" style="border-radius: 20%;"/><br CLEAR="all">
+<img src="/images/group/isaac-500px.jpg" alt="isaac" width="310" align="left" style="border-radius: 20%;"/><br CLEAR="all">
 
 <hr style="border-top: 3px solid #ccc;">
 
@@ -23,17 +23,17 @@ title: Group
 <hr style="border-top: 3px solid #ccc;">
 
 ### Michael Avi Gross, MSc student  
-<img src="/images/avi-500px.jpg" alt="avi" width="310" align="left" style="border-radius: 20%;"/><br CLEAR="all">
+<img src="/images/group/avi-500px.jpg" alt="avi" width="310" align="left" style="border-radius: 20%;"/><br CLEAR="all">
 
 <hr style="border-top: 3px solid #ccc;">
 
 ### Taiwo Adeyemo, MSc student  
-<img src="/images/taiwo-500px.png" alt="taiwo" width="320" align="left" style="border-radius: 20%;"/><br CLEAR="all">
+<img src="/images/group/taiwo-500px.png" alt="taiwo" width="320" align="left" style="border-radius: 20%;"/><br CLEAR="all">
 
 <hr style="border-top: 3px solid #ccc;">
 
 ### Avigail Kaner, Research Specialist  
-<img src="/images/avigail-500px.jpg" alt="avigail" width="350" align="left" style="border-radius: 20%;"/><br CLEAR="all">
+<img src="/images/group/avigail-500px.jpg" alt="avigail" width="350" align="left" style="border-radius: 20%;"/><br CLEAR="all">
 
 <hr style="border-top: 3px solid #ccc;">
 
@@ -52,5 +52,5 @@ The original sentence was
 ### 2019-01-10, Yatir Forest
 
 Avi Gross, Avigail Kaner, Isaac Kramer, Yair Mau
-<img src="/images/group_yatirforest_20190110.jpg" alt="yatir-forest" style="width: 800px;"/>
+<img src="/images/group/group_yatirforest_20190110.jpg" alt="yatir-forest" style="width: 800px;"/>
 
