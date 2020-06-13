@@ -96,6 +96,7 @@ window.onload = wrap_img;
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+
 </head><body>
 <header class="site-header navbar-fixed-top">
 
@@ -133,6 +134,57 @@ window.onload = wrap_img;
 <h2 id="-python-tutorial"><i class="fab fa-python fa-fw fa-lg fa-notbold svv"></i> <a href="/tutorials/python/">Python tutorial</a></h2>
 
 <h2 id="rightarrow-latex-tutorial">$\,\rightarrow\,$ <a href="/tutorials/latex/">$\LaTeX$ tutorial</a></h2>
+
+<!-- ```ruby
+class Person
+  include ActiveModel::Conversion
+  include ActiveModel::Validations
+
+  validates_presence_of :name
+
+  attr_accessor :name
+
+  def initialize(attributes = {})
+  	@name = attributes[:name]
+  end
+```
+
+
+```python
+%matplotlib notebook
+fig, ax = plt.subplots(figsize=(10,6))
+df = pd.read_csv("daily-data/BILBAO-parsed" + ".csv", sep=",")
+df['full-date'] = pd.to_datetime(df['full-date'])
+df = df.set_index('full-date')
+ax.plot(df['rain (mm)'], '-o', label="daily rain (mm)")
+ax.set_xlabel("date")
+ax.set_ylabel("daily rainfall (mm)")
+ax.set_title("Hyetograph -- Bilbao, Spain")
+plt.gcf().autofmt_xdate()
+
+import matplotlib.pyplot as plt
+from numpy import random
+
+color = "#f02254"
+
+@requires_authorization
+def somefunc(param1='', param2=0):
+    r'''A docstring'''
+    if param1 > param2: # interesting
+        print 'Gre\'ater'
+    return (param2 - param1 + 1) or None
+
+class SomeClass:
+	"""
+	ahalja;
+	;lkajdf
+	"""
+    pass
+
+```
+
+
+ -->
 
   </div>
 
