@@ -480,6 +480,8 @@ hr { display: block; height: 1px; border: 0; border-top: 3px solid #ccc; margin:
 
 .page, .post, .home, .blog { padding-top: 55.95px; }
 
+:target::before { content: ""; display: block; margin-top: -66px; height: 66px; }
+
 .svv:hover { animation: fa-spin 2s linear; }
 
 @-webkit-keyframes fa-spin { 0% { -webkit-transform: rotate(0deg);
