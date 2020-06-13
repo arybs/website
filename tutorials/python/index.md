@@ -246,4 +246,3 @@ Main features:
 `unicode, bar, barh, grid`
 
 ![](/images/python_figures/bars.png)
-
