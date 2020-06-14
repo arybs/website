@@ -141,10 +141,27 @@ $dt-code-cell-background: #f8f8f8; // background yair
     // find all pygment tokens here:
     // https://pygments.org/docs/tokens/
     // list of two-letter codes: https://pygments-doc.readthedocs.io/en/latest/_modules/pygments/token.html
+    // tomorrow for sublime, rules: https://github.com/theymaybecoders/sublime-tomorrow-theme/blob/master/Tomorrow.sublime-color-scheme
+
+//$base00: #ffffff; // white
+//$base01: #e0e0e0; // light gray
+//$base02: #d6d6d6; // another light gray
+//$base03: #8e908c; // lightish gray
+//$base04: #969896; // gray
+//$base05: #4d4d4c; // dark gray
+//$base06: #282a2e; // very dark gray
+//$base07: #1d1f21; // almost black
+//$base08: #c82829; // red
+//$base09: #f5871f; // orange
+//$base0a: #eab700; // yellow
+//$base0b: #718c00; // green
+//$base0c: #3e999f; // teal
+//$base0d: #4271ae; // blue
+//$base0e: #8959a8; // purple
+//$base0f: #a3685a; // brown
+
     .Text {color: $base05;}
-
     .err {color: $base08;} //,  # .Error
-
     .c {color: $base03;} //,  # .Comment
     .cp {color: $base0f;} //,  # .Comment.Preproc
     .cpf {color: $base0b;} //,  # .Comment.PreprocFile
@@ -175,5 +192,34 @@ $dt-code-cell-background: #f8f8f8; // background yair
     .String.Affix {color: $base0e;} // String.Affix
     .m, .mf, .mh, .mi, .mo {color: $base09;}
     .se {color: $base09;} // .literal.string.escape
+    
+    // this is just a test
+    //.nb  {color: $base08;} //,  # .Name.Builtin
+    // .p  {color: $base08;} //,  # .Punctuation
+    //.vm  {color: $base08;} //,  # .Punctuation
+    .nsdsfa,
+    .na,
+    .nb,
+    .nc,
+    .no,
+    .nd,
+    .ni,
+    .ne,
+    .nf,
+    .nl,
+    .nn,
+    .nx,
+    .py,
+    .bp,
+    .fm,
+    .vc,
+    .vg,
+    .vi,
+    .vm,
+    .nt,
+    .nv {
+      color: $base08asdfasdfas;
+    }
 
 }
+
