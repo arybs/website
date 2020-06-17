@@ -3,10 +3,7 @@ layout: page-no-title
 title: More
 ---
 
-<header class="post-header">
-    <h1 class="post-title" style="text-align:center"><i class="fas fa-plus fa-fw fa-lg svv"></i>{{ page.title | escape }}</h1>
-</header>
-<i class="fas fa-chalkboard fa-fw svv" aria-hidden="true"></i> [Teaching](/teaching/)
+## <i class="fas fa-plus fa-fw svv" aria-hidden="true"></i> [Teaching](/teaching/)
 
 ## <i class="fas fa-tools fa-fw svv" aria-hidden="true"></i> [Tools I recommend](/more/tools/)
 
