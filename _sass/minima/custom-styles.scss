@@ -13,6 +13,31 @@
 // @import "minima/tomorrow_highlight"; 
 // @import "minima/monokai"; 
 
+
+// thick line above footer
+$website-color:           #437fc7 !default;
+$website-color-light:     lighten($website-color, 30%) !default;
+$website-color-dark:      darken($website-color, 15%) !default;
+$website-light-gray:      #ddd;
+/**
+ * Links
+ */
+a {
+    &:link {
+      color: $website-color;
+    }
+
+    &:visited {
+      color: $website-color;
+    }
+
+    &:active {
+      color: $website-color;
+    }
+}
+
+
+
 pre code {
   display: block;
   background: white;
@@ -24,9 +49,6 @@ pre code {
   @include relative-font-size(1.0)
 }
 
-code {
-  @include relative-font-size(2.0)
-}
 
 // thicker horizontal line
 hr {
@@ -55,8 +77,8 @@ hr {
   left: 0;
   z-index: 999;
   background-color: white;
-  border-bottom: 5px solid #6e0014;
-  border-top: 5px solid #6e0014;
+  border-bottom: 5px solid $website-color;
+  border-top: 5px solid $website-color;
 }
 
 // move content down because of fixed header
@@ -88,7 +110,7 @@ $brand-color-light:     lighten($brand-color, 40%) !default;
 $brand-color-dark:      darken($brand-color, 25%) !default;
 
 .site-footer {
-  border-top: 5px solid #6e0014;
+  border-top: 5px solid $website-color;
 }
 
 
@@ -96,7 +118,7 @@ $brand-color-dark:      darken($brand-color, 25%) !default;
 // my button
 .my_button {
   @include relative-font-size(1.3);
-  background-color: #6e0014;
+  background-color: $website-color;
   border: none;
   color: white;
   padding: 10px 15px;
@@ -107,8 +129,34 @@ $brand-color-dark:      darken($brand-color, 25%) !default;
 }
 
 .my_button:hover {
-  background: #ccc;
-  color: #6e0014;
+  background: $website-light-gray;
+  color: $website-color;
   /*border: 1px solid #6e0014;*/
+}
 
+.my_button_small {
+  @include relative-font-size(1.0);
+  background-color: $website-color;
+  border: none;
+  color: white;
+  padding: 6px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.my_button_small:hover {
+  background: $website-light-gray;
+  color: $website-color;
+  /*border: 1px solid #6e0014;*/
+}
+
+// horizontal line
+.my_hr {
+  border-top: 3px solid #ccc;
+}
+
+code {
+  font-size: 1.9em;
 }

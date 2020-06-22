@@ -36,7 +36,7 @@ Make sure you are acquainted with ipython (interactive python, <a href="https://
 
 I recommend <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> for writing code, and you can install the Anaconda package to it to have a smooth IDE. [not the same anaconda as mentioned above! Yes, it's confusing, I know.]
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -50,7 +50,7 @@ how to make a movie, time-integration methods (semi-spectral and Euler)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5au-G5FuI_A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -70,7 +70,7 @@ Main features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lelsVltLZe4?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -83,7 +83,7 @@ Main features:
 `LaTeX text, scipy.optimize.curve_fit, matplotlib.patches`  
 ![](/images/python_figures/least-squares.png)
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -96,7 +96,7 @@ Main features:
 `np.histogram, plt.hist, plt.bar, plt.barh, gridspec, least squares fit of nonlinear function, plt.hist2d`  
 ![](/images/python_figures/histograms.png)
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -110,7 +110,7 @@ Main features:
 `gridspec subplots; numpy-compatible heaviside; label, ticks and axis manipulations; log scale`
 ![](/images/python_figures/subplot-grid.png)
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -124,7 +124,7 @@ Main features:
 `meshgrid, streamplot, contour, legend, LaTeX`
 ![](/images/python_figures/streamplot.png)
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -139,7 +139,7 @@ Main features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JgE9Px7zsQE" frameborder="0" allowfullscreen></iframe>
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -154,7 +154,7 @@ Main features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-76LN_Kph7A" frameborder="0" allowfullscreen></iframe>
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -170,7 +170,7 @@ Main features:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Oudyl56GPJU" frameborder="0" allowfullscreen></iframe>
 
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -185,7 +185,7 @@ Main features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xgRDhOifFow" frameborder="0" allowfullscreen></iframe>
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -200,7 +200,7 @@ Main features:
 
 ![](http://www.bitbucket.org/yairmau/notebooks/raw/master/figures/cont.png)
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -217,7 +217,7 @@ Main features:
 ![](/images/python_figures/bestpath.png)
 
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->
@@ -232,7 +232,7 @@ Main features:
 
 ![](/images/python_figures/site-logo.png)
 
-<hr style="border-top: 3px solid #ccc;">
+<hr class="my_hr">
 
 <!-- ------------------------------------- -->
 <!-- ------------------------------------- -->

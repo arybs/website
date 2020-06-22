@@ -10,3 +10,14 @@ title: Tutorials
 ## <i class="fab fa-python fa-fw fa-lg fa-notbold svv"></i> [Python tutorial](/tutorials/python/)
 
 ## $\,\rightarrow\,$ [$\LaTeX$ tutorial](/tutorials/latex/)
+
+
+<!-- some code `here`
+
+
+```python
+print("hello")
+for i in range(5):
+	pass
+``` -->
+
