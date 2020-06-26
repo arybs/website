@@ -479,6 +479,8 @@ a:visited { color: #437fc7; }
 
 a:active { color: #437fc7; }
 
+table { font-size: 1rem; }
+
 pre code { display: block; background: white; color: #4d4d4c; font-family: Menlo, Monaco, Consolas, monospace; line-height: 1.5; border: 0px solid #000; padding: 0px; font-size: 1rem; }
 
 hr { display: block; height: 1px; border: 0; border-top: 3px solid #ccc; margin: 1em 0; padding: 0; }
@@ -514,7 +516,5 @@ hr { display: block; height: 1px; border: 0; border-top: 3px solid #ccc; margin:
 .my_button_small:hover { background: #ddd; color: #437fc7; /*border: 1px solid #6e0014;*/ }
 
 .my_hr { border-top: 3px solid #ccc; }
-
-code { font-size: 1.9em; }
 
 /*# sourceMappingURL=style.css.map */
