@@ -186,10 +186,6 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#Evaporation-/-Sublimation">Evaporation / Sublimation </a></li>
 <li class="toc-entry toc-h3"><a href="#Evapotranspiration">Evapotranspiration </a></li>
 <li class="toc-entry toc-h3"><a href="#Water-storage-in-the-atmosphere">Water storage in the atmosphere </a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#collapse-hide">collapse-hide </a>
-<ul>
 <li class="toc-entry toc-h3"><a href="#Condensation">Condensation </a></li>
 <li class="toc-entry toc-h3"><a href="#Precipitation">Precipitation </a></li>
 <li class="toc-entry toc-h3"><a href="#Water-storage-in-ice-and-snow">Water storage in ice and snow </a></li>
@@ -440,22 +436,52 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="collapse-hide">
-<a class="anchor" href="#collapse-hide" aria-hidden="true"><span class="octicon octicon-link"></span></a>collapse-hide<a class="anchor-link" href="#collapse-hide"> </a>
-</h1>$$
-\begin{align}
-\text{amount of water in the atmosphere} &amp; \qquad V = 12\, 900\, \text{km}^3 \\
-\text{surface of Earth} &amp; \qquad S = 4 \pi R^2;\quad R=6371\,\text{km}\\
-&amp; \qquad V = S \times h \\
-\text{height} &amp; \qquad h = \frac{V}{S} \simeq 2.5\,\text{cm}
-\end{align}
-$$
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse-hide</span>
+<span class="c1"># amount of water in the atmosphere</span>
+<span class="n">V</span> <span class="o">=</span> <span class="mi">12900</span> <span class="c1"># km^3</span>
+<span class="c1"># Earth's radius</span>
+<span class="n">R</span> <span class="o">=</span> <span class="mi">6371</span> <span class="c1"># km</span>
+<span class="c1"># surface of Earth = 4 pi Rˆ2</span>
+<span class="n">S</span> <span class="o">=</span> <span class="mi">4</span> <span class="o">*</span> <span class="mf">3.141592</span> <span class="o">*</span> <span class="n">R</span><span class="o">**</span><span class="mi">2</span>
+<span class="c1"># Volume: V = S * h, therefore</span>
+<span class="c1"># height</span>
+<span class="n">h</span> <span class="o">=</span> <span class="n">V</span> <span class="o">/</span> <span class="n">S</span> <span class="c1"># in km</span>
+<span class="n">h_cm</span> <span class="o">=</span> <span class="n">h</span> <span class="o">*</span> <span class="mf">1e5</span> <span class="c1"># in cm</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"The height would be ~ </span><span class="si">{</span><span class="n">h_cm</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2"> cm"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
 </div>
 </div>
+
+    </details>
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The height would be ~ 2.5 cm
+</pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
