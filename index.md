@@ -1,11 +1,9 @@
 ---
 layout: page-no-title
 ---
-**Senior Lecturer** [Assistant Professor]  
+**Senior Lecturer**
 **The Hebrew University of Jerusalem**  
-The Department of **Soil and Water Sciences**  
-Robert H. Smith **Faculty of Agriculture, Food and Environment**  
-
+**The Institute of Environmental Sciences**  
 
 ## About
 I'm interested in the interactions between soil, water and vegetation in drylands, in both natural and agricultural ecosystems.
