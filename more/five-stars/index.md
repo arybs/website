@@ -48,5 +48,6 @@ title: Five-Star Content I Recommend
 
 * [Hardcore History with Dan Carlin](https://www.dancarlin.com/hardcore-history-series/), especially the series “Blueprint for Armageddon” and “Wrath of the Khans”.  
 * [99% Invisible](https://99percentinvisible.org/)  
-* [Radiolab](https://www.wnycstudios.org/shows/radiolab/)  
+* [Revisionist History](http://revisionisthistory.com/)  
+* [Lexicon Valley](https://slate.com/podcasts/lexicon-valley)  
 * [Making Sense](https://samharris.org/podcast/), with Sam Harris
